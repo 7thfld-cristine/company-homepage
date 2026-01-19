@@ -6,26 +6,19 @@ export default function DashboardPage() {
   return (
     <div>
       <section className='flex flex-col items-center justify-center py-24'>
-        {/*<h1 className='text-center text-7xl font-extrabold leading-tight'>
+        <h1 className='text-center text-7xl font-extrabold leading-tight'>
           {t('An')}{' '}
           <span className='bg-span-bg bg-clip-text text-transparent'>
-            {t('Booster')}
+            {t('ee')}
           </span>
           <br />
           {t('to_Your_NextJS_Apps')}
-        </h1>*/}
-        <h1 className='text-center text-7xl font-extrabold leading-tight'>
-          {t('Welcome to SEVENTH FIELD')}{' '}
         </h1>
         <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
-          {/*t(
-            'An_approachable_performant_and_versatile_boilerplate_for_building_SSR_applications'
-          )*/}
           {t(
-            'システム開発の強力なパートナーセブンス・フィールドです'
+            'An_approachable_performant_and_versatile_boilerplate_for_building_SSR_applications'
           )}
         </div>
-        {/*
         <div className='mt-4 flex flex-row gap-4'>
           <a
             href='https://github.com/new?template_name=nextjs-template&template_owner=yahyaparvar'
@@ -44,7 +37,6 @@ export default function DashboardPage() {
             </Button>
           </a>
         </div>
-        */}
       </section>
       <section className='bg-background-secondary py-20 max-lg:py-10'>
         <div className='mx-auto grid max-w-screen-lg grid-cols-3 gap-7 px-8 py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
